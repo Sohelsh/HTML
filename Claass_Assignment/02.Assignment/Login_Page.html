@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SGM College</title>
+        <link rel="stylesheet" href="Login_Page.css" type="text/css">
+        
+    </head>
+
+<body>
+    
+<div class="main">
+ <div class="head"> SGM College,Karad</div>
+ <hr color="#9b59b6">
+ <div class="register">Ragister Here</div>   
+
+    <form action="#">
+        <div class="user-detalis">
+        <div class="input-box">
+        <label for="First-Name">First Name :</label>
+        <input type="text" name="First-Name" id="First-Name" placeholder="Entar Your First Name" required>
+        </div>
+        
+        <div class="input-box">
+        <label for="Last-Name">Last Name :</label>
+        <input type="text" name="Last-Name" id="Last-Name" placeholder="Entar Your last Name" required>
+         </div>
+        
+         <div class="input-box">
+        <label for="Birth">Date Of Birth :</label>
+        <input type="date" name="Birth" id="Birth" required>
+        </div>
+        
+        <div class="input-box">
+        <label for="email">Entar Email :</label>
+        <input type="text" name="email" id="email" placeholder="abc@gmail.com">
+        </div>
+        
+        <div class="input-box">
+        <label for="Add1"> Address :</label>
+        <input type="text" name="Add1" id="Add1" placeholder="Entar Your Address" required>
+        </div>
+        <div class="input-box">
+        <label for="Add2"> Address Line 2:</label>
+        <input type="text" name="Add2" id="Add2" placeholder="Entar Your Second Address" required>
+        </div>
+
+        <div class="input-box">
+        <label for="city">City :</label>
+        <input list="citys" name="city" id="city" placeholder="You Can Serch City" required>
+        <datalist id="citys">
+            <option value="Kolhapur">   
+            <option value="Sangli">
+            <option value="Karad">
+            <option value="Satara">   
+            <option value="Pune">
+            <option value="Mumbai">
+        </datalist>
+        </div>
+
+        <div class="input-box">
+        <label for="state">State :</label>
+        <input list="states" name="state" id="state" placeholder="You Can Serch State" required>
+         <datalist id="states">
+            <option value=Haryana>
+            <option value=Himachal-Pradesh>
+            <option value=Jammu&Kashmir>
+            <option value=Jharkhand>
+            <option value=Karnataka>
+            <option value=Kerala>
+            <option value=Lakshadweep>
+            <option value=Madhya-Pradesh>
+            <option value=Maharashtra>
+            <option value=Manipur>
+            <option value=Meghalaya>
+            <option value=Mizoram>
+            <option value=Nagaland>
+        </datalist>
+        </div>
+
+        <div class="input-box">
+        <label for="pin-c">Pin Code :</label>
+        <input type="number" name="pin-c" id="pin-c" placeholder="Entar Your Pin Code">
+        </div>
+
+        <div class="input-box">
+        <label for="cont">Entar Contact :</label>
+        <input type="tel" name="cont" id="cont" placeholder="91+" required pattern="[0-9] {0-9}">
+        </div>
+
+        <div class="input-box">
+            <label for="user-pw">Entar Password :</label>
+            <input type="password" name="user-pw" id="user-pw" required >
+        </div>
+        <div class="input-box">
+            <label for="user-cpw">Confirm Password :</label>
+            <input type="password" name="user-cpw" id="user-cpw" required >
+        </div>
+        </div>
+        
+       <div class="gender-details">
+        <span class="gender-tital">Gender:</span>
+        <div class="category">
+                 
+        <input id="male" name="Gender" value="male" type="radio" >
+        <label for="male">Male</label>      
+            
+        <input id="female" name="Gender" value="female" type="radio" >
+        <label for="male">Female</label>      
+
+            
+        </div>
+        </div>
+       
+        <div class="button">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+
+
+    </form>
+</div>
+
+</body>
+
+</html>
